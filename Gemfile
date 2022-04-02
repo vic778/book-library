@@ -74,6 +74,9 @@ gem "devise"
 gem "bulma-rails"
 gem 'simple_form', '~> 5.0'
 gem "sidekiq"
+gem 'stripe', '~> 5.48'
+gem 'image_magick', '~> 0.1.9'
+gem 'mini_magick'
 
 group :development, :test do
   gem "better_errors"
